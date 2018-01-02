@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Aleksei Chernitsyn </title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  </head>
+  <body>
+    <div id="container">
+      <button id="showForm">Показать форму</button>
+      <form name="form" id="mainForm" style="">
+        <p><b>имя:</b><br>
+          <input type="text" size="40" id="name">
+        </p>
+        <p><b>пол:</b><br>
+          <input type="radio" name="gender" value="мужской" class="gender"> муж
+          <input type="radio" name="gender" value="женский" class="gender"> жен<Br>
+        </p>
+        <p><b>дата рождения:</b><br>
+          <input type="date" id="birthDay"><br>
+        </p>
+        <p><b>любимый цвет:</b><br>
+          <select size="3" name="color" id="color">
+            <option value="зеленый">зеленый</option>
+            <option value="красный">красный</option>
+            <option value="синий">синий</option>
+          </select>
+        </p>
+        <p>
+          <input type="checkbox" name="accept" id="accept"> согласие на обработку данных <br>
+        </p>
+        <button id="submit" value="Показать Анкету">Показать анкету</button>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"> </script>
+</html>
